@@ -11,6 +11,6 @@ import Testing
 struct TestSwiftLintDangerBitriseTests {
 
     @Test func example() async throws {
-        #expect(true)
+        #expect(1 + 1 == 2)
     }
 }
