@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8837FE819E00463FC43B4E79 /* Pods_TestSwiftLintDangerBitriseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD425188BCDE3A7C2E56C6BD /* Pods_TestSwiftLintDangerBitriseTests.framework */; };
+		AD288A8BFFE3C221414CEB9C /* Pods_TestSwiftLintDangerBitrise_TestSwiftLintDangerBitriseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A69AD5FD863810D0C53CD5 /* Pods_TestSwiftLintDangerBitrise_TestSwiftLintDangerBitriseUITests.framework */; };
+		FE4CFC226D89A7291CEAB637 /* Pods_TestSwiftLintDangerBitrise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47EA1C3E9998EEF1EFFC5A37 /* Pods_TestSwiftLintDangerBitrise.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		830E20FC2DD4355600E874E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,24 +30,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47EA1C3E9998EEF1EFFC5A37 /* Pods_TestSwiftLintDangerBitrise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSwiftLintDangerBitrise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A76324B9FD79E454A1565DA /* Pods-TestSwiftLintDangerBitriseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSwiftLintDangerBitriseTests.release.xcconfig"; path = "Target Support Files/Pods-TestSwiftLintDangerBitriseTests/Pods-TestSwiftLintDangerBitriseTests.release.xcconfig"; sourceTree = "<group>"; };
 		830E20EB2DD4355300E874E9 /* TestSwiftLintDangerBitrise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSwiftLintDangerBitrise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		830E20FB2DD4355600E874E9 /* TestSwiftLintDangerBitriseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSwiftLintDangerBitriseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		830E21052DD4355600E874E9 /* TestSwiftLintDangerBitriseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSwiftLintDangerBitriseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8415C4C5F71843D1F0D9E083 /* Pods-TestSwiftLintDangerBitriseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSwiftLintDangerBitriseTests.debug.xcconfig"; path = "Target Support Files/Pods-TestSwiftLintDangerBitriseTests/Pods-TestSwiftLintDangerBitriseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97C8CE54AE142EAD0A056691 /* Pods-TestSwiftLintDangerBitrise-TestSwiftLintDangerBitriseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSwiftLintDangerBitrise-TestSwiftLintDangerBitriseUITests.release.xcconfig"; path = "Target Support Files/Pods-TestSwiftLintDangerBitrise-TestSwiftLintDangerBitriseUITests/Pods-TestSwiftLintDangerBitrise-TestSwiftLintDangerBitriseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E515BB35614A7C9EB9D5365 /* Pods-TestSwiftLintDangerBitrise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSwiftLintDangerBitrise.debug.xcconfig"; path = "Target Support Files/Pods-TestSwiftLintDangerBitrise/Pods-TestSwiftLintDangerBitrise.debug.xcconfig"; sourceTree = "<group>"; };
+		A9A1C8784950C2D60D744EA6 /* Pods-TestSwiftLintDangerBitrise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSwiftLintDangerBitrise.release.xcconfig"; path = "Target Support Files/Pods-TestSwiftLintDangerBitrise/Pods-TestSwiftLintDangerBitrise.release.xcconfig"; sourceTree = "<group>"; };
+		DD425188BCDE3A7C2E56C6BD /* Pods_TestSwiftLintDangerBitriseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSwiftLintDangerBitriseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2260B70098C765393705F25 /* Pods-TestSwiftLintDangerBitrise-TestSwiftLintDangerBitriseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSwiftLintDangerBitrise-TestSwiftLintDangerBitriseUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestSwiftLintDangerBitrise-TestSwiftLintDangerBitriseUITests/Pods-TestSwiftLintDangerBitrise-TestSwiftLintDangerBitriseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5A69AD5FD863810D0C53CD5 /* Pods_TestSwiftLintDangerBitrise_TestSwiftLintDangerBitriseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSwiftLintDangerBitrise_TestSwiftLintDangerBitriseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		830E20ED2DD4355300E874E9 /* TestSwiftLintDangerBitrise */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = TestSwiftLintDangerBitrise;
 			sourceTree = "<group>";
 		};
 		830E20FE2DD4355600E874E9 /* TestSwiftLintDangerBitriseTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = TestSwiftLintDangerBitriseTests;
 			sourceTree = "<group>";
 		};
 		830E21082DD4355600E874E9 /* TestSwiftLintDangerBitriseUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = TestSwiftLintDangerBitriseUITests;
 			sourceTree = "<group>";
 		};
@@ -52,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE4CFC226D89A7291CEAB637 /* Pods_TestSwiftLintDangerBitrise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8837FE819E00463FC43B4E79 /* Pods_TestSwiftLintDangerBitriseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +89,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD288A8BFFE3C221414CEB9C /* Pods_TestSwiftLintDangerBitrise_TestSwiftLintDangerBitriseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		169CB74E813CD6885142FF00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E515BB35614A7C9EB9D5365 /* Pods-TestSwiftLintDangerBitrise.debug.xcconfig */,
+				A9A1C8784950C2D60D744EA6 /* Pods-TestSwiftLintDangerBitrise.release.xcconfig */,
+				E2260B70098C765393705F25 /* Pods-TestSwiftLintDangerBitrise-TestSwiftLintDangerBitriseUITests.debug.xcconfig */,
+				97C8CE54AE142EAD0A056691 /* Pods-TestSwiftLintDangerBitrise-TestSwiftLintDangerBitriseUITests.release.xcconfig */,
+				8415C4C5F71843D1F0D9E083 /* Pods-TestSwiftLintDangerBitriseTests.debug.xcconfig */,
+				6A76324B9FD79E454A1565DA /* Pods-TestSwiftLintDangerBitriseTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B2F66BAA93246D2524BA2F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47EA1C3E9998EEF1EFFC5A37 /* Pods_TestSwiftLintDangerBitrise.framework */,
+				E5A69AD5FD863810D0C53CD5 /* Pods_TestSwiftLintDangerBitrise_TestSwiftLintDangerBitriseUITests.framework */,
+				DD425188BCDE3A7C2E56C6BD /* Pods_TestSwiftLintDangerBitriseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		830E20E22DD4355300E874E9 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +127,8 @@
 				830E20FE2DD4355600E874E9 /* TestSwiftLintDangerBitriseTests */,
 				830E21082DD4355600E874E9 /* TestSwiftLintDangerBitriseUITests */,
 				830E20EC2DD4355300E874E9 /* Products */,
+				169CB74E813CD6885142FF00 /* Pods */,
+				6B2F66BAA93246D2524BA2F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +149,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 830E210F2DD4355600E874E9 /* Build configuration list for PBXNativeTarget "TestSwiftLintDangerBitrise" */;
 			buildPhases = (
+				A0B036EA4A7234A91603EB87 /* [CP] Check Pods Manifest.lock */,
 				830E20E72DD4355300E874E9 /* Sources */,
 				830E20E82DD4355300E874E9 /* Frameworks */,
 				830E20E92DD4355300E874E9 /* Resources */,
@@ -111,8 +162,6 @@
 				830E20ED2DD4355300E874E9 /* TestSwiftLintDangerBitrise */,
 			);
 			name = TestSwiftLintDangerBitrise;
-			packageProductDependencies = (
-			);
 			productName = TestSwiftLintDangerBitrise;
 			productReference = 830E20EB2DD4355300E874E9 /* TestSwiftLintDangerBitrise.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 830E21122DD4355600E874E9 /* Build configuration list for PBXNativeTarget "TestSwiftLintDangerBitriseTests" */;
 			buildPhases = (
+				5BF2225EDF2BCD387AEBF667 /* [CP] Check Pods Manifest.lock */,
 				830E20F72DD4355600E874E9 /* Sources */,
 				830E20F82DD4355600E874E9 /* Frameworks */,
 				830E20F92DD4355600E874E9 /* Resources */,
@@ -134,8 +184,6 @@
 				830E20FE2DD4355600E874E9 /* TestSwiftLintDangerBitriseTests */,
 			);
 			name = TestSwiftLintDangerBitriseTests;
-			packageProductDependencies = (
-			);
 			productName = TestSwiftLintDangerBitriseTests;
 			productReference = 830E20FB2DD4355600E874E9 /* TestSwiftLintDangerBitriseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 830E21152DD4355600E874E9 /* Build configuration list for PBXNativeTarget "TestSwiftLintDangerBitriseUITests" */;
 			buildPhases = (
+				EE8A5B54F39939EDD583532D /* [CP] Check Pods Manifest.lock */,
 				830E21012DD4355600E874E9 /* Sources */,
 				830E21022DD4355600E874E9 /* Frameworks */,
 				830E21032DD4355600E874E9 /* Resources */,
@@ -157,8 +206,6 @@
 				830E21082DD4355600E874E9 /* TestSwiftLintDangerBitriseUITests */,
 			);
 			name = TestSwiftLintDangerBitriseUITests;
-			packageProductDependencies = (
-			);
 			productName = TestSwiftLintDangerBitriseUITests;
 			productReference = 830E21052DD4355600E874E9 /* TestSwiftLintDangerBitriseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +277,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BF2225EDF2BCD387AEBF667 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestSwiftLintDangerBitriseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B036EA4A7234A91603EB87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestSwiftLintDangerBitrise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE8A5B54F39939EDD583532D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestSwiftLintDangerBitrise-TestSwiftLintDangerBitriseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		830E20E72DD4355300E874E9 /* Sources */ = {
@@ -390,6 +506,7 @@
 		};
 		830E21102DD4355600E874E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E515BB35614A7C9EB9D5365 /* Pods-TestSwiftLintDangerBitrise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -419,6 +536,7 @@
 		};
 		830E21112DD4355600E874E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9A1C8784950C2D60D744EA6 /* Pods-TestSwiftLintDangerBitrise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +566,7 @@
 		};
 		830E21132DD4355600E874E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8415C4C5F71843D1F0D9E083 /* Pods-TestSwiftLintDangerBitriseTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +586,7 @@
 		};
 		830E21142DD4355600E874E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A76324B9FD79E454A1565DA /* Pods-TestSwiftLintDangerBitriseTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +606,7 @@
 		};
 		830E21162DD4355600E874E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2260B70098C765393705F25 /* Pods-TestSwiftLintDangerBitrise-TestSwiftLintDangerBitriseUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -503,6 +624,7 @@
 		};
 		830E21172DD4355600E874E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C8CE54AE142EAD0A056691 /* Pods-TestSwiftLintDangerBitrise-TestSwiftLintDangerBitriseUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
