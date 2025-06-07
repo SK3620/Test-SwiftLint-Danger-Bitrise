@@ -13,6 +13,6 @@ struct TestSwiftLintDangerBitriseTests {
     // テスト１
 
     @Test func example() async throws {
-        #expect(true)
+        #expect(1 + 1 == 2)
     }
 }
